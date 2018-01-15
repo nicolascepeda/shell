@@ -17,7 +17,7 @@ alias mk='mkdir -p'
 alias mc='MC_SKIN="$HOME/.config/mc/nicedark.ini" EDITOR="vim" mc'
 alias p='print -l'
 alias pp='p $path'
-alias ps="ps aux | grep "
+# alias ps="ps aux | grep "
 alias sudo='sudo '
 # Assume ~/.ssh/config has a Host definition
 # setting credentials & co

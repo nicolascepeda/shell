@@ -12,3 +12,11 @@ for lo in $load_order; do
     source $file
   done
 done
+
+
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/nicolas/.sdkman"
+[[ -s "/Users/nicolas/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/nicolas/.sdkman/bin/sdkman-init.sh"
