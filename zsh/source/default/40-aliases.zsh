@@ -7,7 +7,7 @@ alias ...='.. && cd ..'
 alias ....='... && cd ..'
 alias h='cd ~/'
 alias dl='cd ~/Downloads'
-
+alias python='python3'
 alias l='ls -lh'
 alias ll='ls -lha'
 alias grep='grep --color'
